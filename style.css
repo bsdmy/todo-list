@@ -1,0 +1,36 @@
+:root{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-color: #001f3f;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.side_bar{
+    padding: 20px;
+    background-color: #AAAAAA;
+}
+.side_bar_header{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    font-weight: bold;
+    border: black solid 2px;
+    border-radius: 2px;
+    padding: 3px;
+}
+.header_text{
+    padding: 3px;
+}
